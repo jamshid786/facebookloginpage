@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+*{
+    font-family: "Roboto", sans-serif;
+}
+body{
+    width: 100%;
+   height: 100vh;
+   background-color: #F0F0F0;
+  
+}
+.form_container{
+   border-radius: 8px;
+   box-shadow: 0px 2px 4px rgba(0, 0, 0, .1), 0px 8px 16px rgba(0, 0, 0, .1);
+   background-color: white;
+   padding:16px;
+   width: 360px;
+   height: 300px;
+   margin-top: -20px;
+}
+
+
+.logintofacebook{
+   padding: 18px 0;
+   font-size: 10px;
+   text-align: center;
+   
+   
+}
+
+.text-field {
+   
+   width: 100%;
+   height: 50px;
+   border: 1px solid rgb(200, 196, 196);
+   border-radius: 6px;
+   padding: 5px 10px;
+   margin: 10px 0;
+   font-size: 16px;
+   box-sizing: border-box; 
+}
+
+
+.button{
+   width: 100%;
+   height: 40px;
+   background-color: #1877F2;  
+   color: white;
+   
+   padding: 10px 20px;
+   font-size: 16px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: background-color 0.3s ease;
+}
+.button:hover{
+   
+       background-color: #166fe5;  
+
+}
+
+.link{
+   text-align: center;
+   margin-top: 20px;
+}
+
+.link a{
+   color: #1877f2;
+   font-size: 12px;
+   text-decoration: none;
+   font-weight: 500;
+   font-family: "Roboto", sans-serif;
+  
+   
+}
+
+.container{
+   margin-top: 10px;
+   margin-bottom: 0px;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   flex-direction: column;
+}
+
+.container #heading{
+   font-size: 3rem;
+   color:#156ad9;
+   text-align: center;
+   
+}
+
+.login{
+    padding-top: 10px;
+}
+
